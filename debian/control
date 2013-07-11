@@ -1,0 +1,13 @@
+Source: igestis-phpexcel
+Section: web
+Priority: extra
+Maintainer: Olivier Bitsch <olivier.b@iabsis.com>
+Build-Depends: debhelper (>= 5), po-debconf
+Standards-Version: 3.7.2
+
+Package: igestis-phpexcel
+Architecture: all
+Depends: igestis (>= 2.3)
+Description: Permit to create and read Excel files.
+ This module support reading and writing xls, xlsx and
+ odx files.
